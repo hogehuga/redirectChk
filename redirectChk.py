@@ -21,9 +21,8 @@ if args.v:
     tmp="{0:5}|{1:4}|{2}\n".format(str(x),str(resp.history[x].status_code),str(resp.history[x].url))
     ret=ret+tmp
 
-  tmp="{0:5}|{1:4}|{2}\n".format(str(len(resp.history)+1),str(resp.status_code),str(resp.url))
+  tmp="{0:5}|{1:4}|{2}\n".format(str(len(resp.history)),str(resp.status_code),str(resp.url))
   ret = ret+tmp
   print(ret,end="")
 else:
   print("{0:4}|{1}\n".format(str(resp.status_code),str(resp.url)),end="")
-  #print(tmp)

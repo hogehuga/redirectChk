@@ -41,7 +41,7 @@ count|code|url
 -----+----+-------------------------------
 0    |301 |http://httpbin.org/status/301
 1    |302 |http://httpbin.org/redirect/1
-3    |200 |http://httpbin.org/get
+2    |200 |http://httpbin.org/get
 $
 ```
 
