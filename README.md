@@ -2,10 +2,13 @@
 
 This is redirect URL checker
 
-## how to use
+## how to install/use
 
-1. git clone https://github.com/hogehuga/redirectChk.git
-2. use './redirectChk.py' command.
+1. `$ git clone https://github.com/hogehuga/redirectChk.git`
+2. `$ cd redirectChk`
+3. `$ sudo make install` (install to /usr/local/bin/redirectChk)
+4. use 'redirectChk' command.
+5. uninstall is `$ sudo make clean`
 
 ## useage
 
